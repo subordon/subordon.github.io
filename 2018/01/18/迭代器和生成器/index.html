@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>《深入理解ES6》-块级作用域绑定 | 自由生长</title>
+  <title>迭代器和生成器 | 自由生长</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="变量声明 varvar声明的变量，都会当成在当前作用域顶部声明的变量，也就是提升（Hoisting）机制。 let 声明 let声明与var声明相同。let声明把变量作用域限制在当前代码块中。属于块级声明。用于声明在指定的作用于之外无法访问的变量。也叫词法作用域。">
-<meta name="keywords" content="深入理解ES6">
+  <meta name="description" content="迭代器  迭代器是一种特殊对象">
+<meta name="keywords" content="ES6">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《深入理解ES6》-块级作用域绑定">
-<meta property="og:url" content="http://yoursite.com/2017/12/01/es6-block/index.html">
+<meta property="og:title" content="迭代器和生成器">
+<meta property="og:url" content="http://yoursite.com/2018/01/18/迭代器和生成器/index.html">
 <meta property="og:site_name" content="自由生长">
-<meta property="og:description" content="变量声明 varvar声明的变量，都会当成在当前作用域顶部声明的变量，也就是提升（Hoisting）机制。 let 声明 let声明与var声明相同。let声明把变量作用域限制在当前代码块中。属于块级声明。用于声明在指定的作用于之外无法访问的变量。也叫词法作用域。">
-<meta property="og:updated_time" content="2017-12-11T14:11:01.542Z">
+<meta property="og:description" content="迭代器  迭代器是一种特殊对象">
+<meta property="og:updated_time" content="2018-01-18T14:27:09.827Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="《深入理解ES6》-块级作用域绑定">
-<meta name="twitter:description" content="变量声明 varvar声明的变量，都会当成在当前作用域顶部声明的变量，也就是提升（Hoisting）机制。 let 声明 let声明与var声明相同。let声明把变量作用域限制在当前代码块中。属于块级声明。用于声明在指定的作用于之外无法访问的变量。也叫词法作用域。">
+<meta name="twitter:title" content="迭代器和生成器">
+<meta name="twitter:description" content="迭代器  迭代器是一种特殊对象">
   
     <link rel="alternative" href="/atom.xml" title="自由生长" type="application/atom+xml">
   
@@ -158,30 +158,29 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-es6-block" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-迭代器和生成器" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      《深入理解ES6》-块级作用域绑定
+      迭代器和生成器
     </h1>
   
 
         
-        <a href="/2017/12/01/es6-block/" class="archive-article-date">
-  	<time datetime="2017-12-01T00:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-12-01</time>
+        <a href="/2018/01/18/迭代器和生成器/" class="archive-article-date">
+  	<time datetime="2018-01-18T00:55:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-18</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h4><ol>
-<li>var<br>var声明的变量，都会当成在当前作用域顶部声明的变量，也就是提升（Hoisting）机制。</li>
-<li>let 声明<br> let声明与var声明相同。let声明把变量作用域限制在当前代码块中。属于块级声明。用于声明在指定的作用于之外无法访问的变量。也叫词法作用域。</li>
-</ol>
+        <ul>
+<li>迭代器<br>  迭代器是一种特殊对象</li>
+</ul>
 
       
 
@@ -216,7 +215,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">深入理解ES6</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">ES6</a>
         		</li>
       		
 		</ul>
@@ -272,7 +271,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2017/12/01/es6-block/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/01/18/迭代器和生成器/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -286,18 +285,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/01/18/迭代器和生成器/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          迭代器和生成器
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/12/01/snow/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">下雪啦</div>
+    <a href="/2017/12/01/es6-block/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">《深入理解ES6》-块级作用域绑定</div>
       <i class="icon-circle-right"></i>
     </a>
   
